@@ -87,11 +87,5 @@ module.exports = {
 //        dir: "models/unet"
 //      }
 //    },
-    {
-      method: "fs.link",
-      params: {
-        venv: "env"
-      }
-    }
   ]
 }
