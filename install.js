@@ -27,7 +27,7 @@ module.exports = {
         message: [
           "uv pip uninstall diffusers[torch] torch torchvision",
           "uv pip install -r requirements.txt",
-          "uv pip install -U bitsandbytes"
+          "uv pip install -U bitsandbytes hf-xet"
         ]
       }
     },
