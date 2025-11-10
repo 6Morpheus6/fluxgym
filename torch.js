@@ -18,7 +18,7 @@ module.exports = {
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
-        "message": "uv pip install torch-directml torchaudio torchvision"
+        "message": "uv pip install torch-directml torch torchvision torchaudio --force-reinstall --no-deps"
       }
     },
     // windows cpu
