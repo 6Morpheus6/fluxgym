@@ -28,7 +28,7 @@ module.exports = {
       params: {
         venv: "env",
         message: [
-          "uv pip uninstall diffusers[torch] torch torchvision",
+          "uv pip uninstall diffusers[torch] torch",
           "uv pip install -r requirements.txt",
           "uv pip install -U bitsandbytes hf-xet"
         ]

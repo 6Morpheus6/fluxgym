@@ -29,7 +29,7 @@ module.exports = {
     params: {
       venv: "env",
       message: [
-        "uv pip uninstall diffusers[torch] torch torchaudio torchvision",
+        "uv pip uninstall diffusers[torch] torch",
         "uv pip install -r requirements.txt",
       ]
     }
